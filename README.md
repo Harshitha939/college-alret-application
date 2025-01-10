@@ -1,2 +1,9 @@
 # college-alret-application
-dependencies {     implementation 'com.google.firebase:firebase-auth:21.0.1'     implementation 'com.google.firebase:firebase-firestore:24.0.0'     implementation 'com.google.firebase:firebase-messaging:23.0.0'     implementation 'androidx.recyclerview:recyclerview:1.2.1' }
+Create a College Alert Android app that notifies
+
+users about campus events. It's a beginner-
+friendly project that utilizes Android features.
+
+This app benefits busy students by helping
+them plan their schedules and stay informed
+about crucial campus events.
