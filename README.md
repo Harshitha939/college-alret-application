@@ -1,4 +1,4 @@
-# college-alret-application
+# codealpha_tasks
 Create a College Alert Android app that notifies
 
 users about campus events. It's a beginner-
