@@ -1,0 +1,14 @@
+val db = FirebaseFirestore.getInstance()
+
+fun fetchEvents() {
+    db.collection("events")
+        .get()
+        .addOnSuccessListener { documents ->
+            val eventList = mutableListOf<Event>()
+            for (document in documents) {
+                val event = document.toObject(Event::class.java)
+                eventList.add(event)
+            }
+            // Update RecyclerView adapter
+        }
+}
